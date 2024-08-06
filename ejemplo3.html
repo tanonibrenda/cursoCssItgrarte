@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo de CSS</title>
+<style>
+/* Selecciona solo los párrafos que son hijos directos de un div */
+ul > p {
+    color: green;
+}
+div > p {
+color: blue;
+}
+p {
+    color: red;
+}
+</style>
+</head>
+<body>
+<div>
+    <p>Este párrafo será azul porque es hijo directo del div.</p>
+        <!-- <div>
+            <p>Este párrafo no será azul porque está dentro de otro div.</p>
+        </div> -->
+        <div>
+            <p>Este párrafo es verde</p>
+        </div>
+</div>
+<p>Este párrafo no será azul porque está dentro de otro div.</p>
+<ul>
+    <il>linea 1</il>
+    <il>linea 2</il>
+    <il>linea 3</il>
+    <il>linea 4</il>
+    <p>párrafo de la lista</p>
+</ul>
+</body>
+</html>

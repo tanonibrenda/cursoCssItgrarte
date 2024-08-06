@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo de CSS</title>
+<style>
+/* Selecciona solo el primer párrafo que sigue inmediatamente a un h1 */
+h1 + ul{
+color: green;
+}
+.clase1{
+background-color: black;
+
+}
+li +  p{
+    color: white;
+}
+</style>
+</head>
+<body>
+<h1>Encabezado 1</h1>
+
+<ul class="clase1">
+    <li>item 1 </li>
+    <p >parrafo rojo</p>
+    
+</ul>
+<p>Este párrafo será verde porque es adyacente inmediato de h1.</p>
+<p>Este párrafo no será verde porque no es adyacente inmediato de h1.</p>
+</body>
+
+<p>
+    selector combinado:<br>
+    en style  ul li {  }<br>
+    .clase1 h1{
+        subclases
+    }
+
+</p>
+</html>

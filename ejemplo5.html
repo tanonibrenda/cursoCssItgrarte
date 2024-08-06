@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Ejemplo de CSS</title>
+<style>
+/* Selecciona todos los párrafos que son hermanos de un h1 */
+h2 ~ p {
+color: red;
+}
+</style>
+</head>
+<body>
+    
+<h1>Encabezado 1</h1>
+
+<p>Este párrafo será rojo porque es un hermano general de h1.</p>
+<p>Este también será rojo porque es un hermano general de h1.</p>
+<div>
+<p>Este no será rojo porque está en otro nivel jerárquico.</p>
+</div>
+<p>otro parrafo fuera del div</p>
+<h2>titulo 2</h2>
+<p>parrafo duda</p>
+</body>
+</html>

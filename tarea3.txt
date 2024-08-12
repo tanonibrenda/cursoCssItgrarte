@@ -1,0 +1,16 @@
+tarea 3
+Crea una página web sencilla utilizando HTML y CSS en la que apliques los conocimientos adquiridos en la clase sobre operadores en CSS (`>`, `+`, `~`), la cascada, especificidad, y el uso de `!important`. Asegúrate de incluir los siguientes elementos y estilos:
+1.
+Estructura HTML:
+• Un `div` contenedor principal.
+• Dentro del `div`, añade dos `div` hijos. En el primer `div` hijo, incluye un `h1` y dos párrafos (`p`). En el segundo `div` hijo, añade dos párrafos (`p`).
+• Añade un párrafo adicional fuera del `div` contenedor principal.
+2.
+CSS:
+• Usa el operador de hijo directo (`>`) para aplicar un color de texto azul a los párrafos que son hijos directos del primer `div` hijo.👍
+• Utiliza el operador de adyacencia inmediata (`+`) para aplicar un color de texto verde al párrafo que sigue inmediatamente después del `h1`.👍
+• Emplea el operador de hermanos generales (`~`) para aplicar un color de texto rojo a todos los párrafos que son hermanos del `h1`.👍
+• Demuestra la cascada creando tres reglas CSS para un mismo selector de párrafo (`p`), con diferentes colores de texto. La última regla debe sobrescribir a las anteriores.👍
+• Aplica reglas CSS con diferentes niveles de especificidad y añade un `id` y una `clase` a uno de los párrafos para mostrar cómo la especificidad afecta la aplicación de los estilos.👍
+• Utiliza `!important` en una regla CSS para sobrescribir otros estilos aplicados a un párrafo.
+Guarda tu archivo HTML y CSS, y abre la página en tu navegador para verificar que los estilos se apliquen correctamente según lo especificado..

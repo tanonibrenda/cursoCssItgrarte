@@ -1,0 +1,32 @@
+/* Punto uno */
+div > p {
+    color: blue; 
+}
+/* Punto dos */
+h1 + p {
+    color: green; 
+}
+/* Punto tres */
+h1 ~ p {
+    color: red; }
+/* Punto cuatro: tres formas de cascada */
+div > p {
+    color: rgb(12, 11, 11);
+q}
+h1 + p{
+    color: rgb(119, 37, 37);
+}
+h1 ~ p{
+    color: rgb(54, 54, 194);
+}
+/* Quinto punto class y ID */
+.cascada {
+    font-size: 40px; 
+    background-color: aqua; 
+}
+span{
+    font-size: 20px;
+}
+#ultimoCascada{
+    font-size: 60px;
+}
